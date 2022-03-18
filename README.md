@@ -14,7 +14,8 @@
 
 ### Información
 
-  Hemos elegido el dataset de precios de coches en Polonia "Car Prices Poland"[Car Prices Poland.zip](https://github.com/migueliiin/dataset-1/files/8304017/archive.zip)
+  Hemos elegido el dataset de precios de coches en Polonia "Car Prices Poland" [Car Prices Poland.zip](https://github.com/migueliiin/dataset-1/files/8304017/archive.zip)
+  
   En el archivo adjunto podemos encontrar el .csv que contiene todos los datos necesarios del tema seleccionado.
   El dataset contiene información sobre la marca, el modelo, la generación, el año de producción, el kilometraje,
   el tipo y volumen del motor, la localización y el precio de cada coche.
