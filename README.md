@@ -25,3 +25,4 @@
   A partir de un analisis profundo de los datos, estos datos puden ser utiles para saber (por ejemplo) que coche
   es el más adquirido y sus caracteristicas, de manera que podríamos ayudar a optimizar la estrategia de negocio
   que vamos a usar (en este caso en Polonia).
+
