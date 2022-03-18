@@ -1,5 +1,29 @@
 # dataset-1
 ### Introducción
+
+### Presentacion de la empresa
+
+Nos presentamos como Wafety, una empresa dedicda a la distribución y venta de coches ecofriendly (hibridos y electricos) ubicada en Varsovia, Polonia. Nuestra mision consiste en facilitar el acceso al transporte limpio al mayor numero de personas posible. Queremos lograr un ecosistema mas sano sin renunciar a las necesidades particulares de la poblacion. 
+
+### Necesidades y propuesta de valor
+
+¿Para que sirve el producto? Proporcionar un medio de transporte eficaz mas ecologico
+¿Qué utilidad le proporciona el producto al consumidor? La utilidad de nuestro producto es un medio de transporte personal que se puede usar en la vida de nuestros clientes
+¿A qué tipo de necesidad, de acuerdo con la pirámide de Maslow, responde este producto? Dentro de la piramide de Maslow,nos corresponde el escalon de seguridad.
+
+### Propuesta de valor
+Planteamos que todo ciudadano tenga un medio de transporte coste reducido y fiable.
+
+### Los costes que asume el cliente para poder adquirir y consumir el producto.
+
+Nuestra intencion es reducir los costes usuales de los coches electricos para hacerlos mas accesible al publico. Para ello optimizaremos la fabricacion de los coches y obtener acuerdos con nuestros proveedores y el gobierno de Polaco con el objetivo de que se abarate el coste y todo aquel que lo necesite pueda comprar su coche.
+
+### Analisis del entorno y diagnostico dafo
+
+### Identificacion del publico objetivo 
+
+Nuestro publico mayoritariamente se trata de la poblacion joven ya que son los que mas dificultades economicas tienen para obtener su propio coche y de esa forma podrian obtenerlo a una temprana edad.
+
   En el grupo de los siguientes integrantes:
   
   [Miguel](https://github.com/migueliiin)
@@ -25,4 +49,5 @@
   A partir de un analisis profundo de los datos, estos datos puden ser utiles para saber (por ejemplo) que coche
   es el más adquirido y sus caracteristicas, de manera que podríamos ayudar a optimizar la estrategia de negocio
   que vamos a usar (en este caso en Polonia).
+  
 
