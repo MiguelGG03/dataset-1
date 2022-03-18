@@ -24,6 +24,13 @@ Nuestra intencion es reducir los costes usuales de los coches electricos para ha
 
 Nuestro publico mayoritariamente se trata de la poblacion joven ya que son los que mas dificultades economicas tienen para obtener su propio coche y de esa forma podrian obtenerlo a una temprana edad.
 
+### Posicionamiento
+
+Nuestro producto se trata de un coche electrico sencillo, sirve para lo mismo que un coche de cualquier otra empresa, con la diferencia que nuestro estandar de producto será un producto basico destinado al ahorro de recursos con las cualidades optimas para el uso cotidiano del mismo.
+
+
+
+
   En el grupo de los siguientes integrantes:
   
   [Miguel](https://github.com/migueliiin)
