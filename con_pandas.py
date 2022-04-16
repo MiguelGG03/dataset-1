@@ -2,19 +2,6 @@ from numpy import append
 import pandas as pd
 
 
-"""
--Crear, leer y escribir(No puede trabajar con datos si no puede leerlos)
--Indexación, selección y asignación(Los científicos de datos profesionales
-hacen esto docenas de veces al día)
--Resumen de funciones y mapas(Extraiga conocimientos de sus datos)
--Agrupación y clasificación(Aumente su nivel de conocimiento. Cuanto
- más complejo es el conjunto de datos, más importa esto)
--Tipos de datos y valores perdidos(Lidiar con los problemas
- de bloqueo de progreso más comunes)
--Renombrar y combinar(Los datos provienen de muchas fuentes.
- Ayude a que todo tenga sentido juntos)
-
-"""
 
 #Lectura y escritura
 
@@ -107,6 +94,9 @@ print("==================================================")
 print("               Renombrar y combinar")
 print("==================================================")
 print()
+
+#Renombrar
+
 ef=df.rename(columns={"county": "condado", "state": "estado","year":"año"})
 print(ef.tail(10))
 s_c=ef["condado"]
@@ -115,3 +105,9 @@ s_a=ef["año"]
 print(s_c.head(1))
 print(s_e.head(1))
 print(s_a.head(1))
+
+#Combinar
+
+df["Condition & Fuel"] = df["condition"] + " " + df["fuel"]
+s_cf=df["Condition & Fuel"]
+print(s_cf.head(1))
