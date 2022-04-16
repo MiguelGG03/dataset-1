@@ -1,3 +1,4 @@
+from numpy import append
 import pandas as pd
 
 
@@ -40,5 +41,13 @@ print("==================================================")
 print("          Indexacion y seleccion")
 print("==================================================")
 print()
-print(hf.index)
+print(df.index)
+print()
+dd=int(input("Fila inicial (0/20000): "))
+ad=int(input("Fila final(ad>dd/20000): "))
+lista=[]
+for i in range(dd,ad+1):
+    lista.append(i)
+print(lista)
+print(df.iloc[lista])
 print()
