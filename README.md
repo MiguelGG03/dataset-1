@@ -148,7 +148,9 @@ print(posting_date)
 ```
 
 * Con pandas
+
 Consiste en crear, leer y escribir datos; indexacion, seleccion y asignacion de datos; resumen de funciones y mapas, agrupacion y clasificacion de datos, tipos de datos y valores perdidos, renombrar y combinar datos.
+
 ```
 from numpy import append
 import pandas as pd
