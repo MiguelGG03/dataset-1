@@ -9,7 +9,7 @@ class data:
     def crear_lista(self):
         for i in self.f:
             i = i.rstrip('\n')
-            columnas = i.split(';')
+            columnas = i.split(',')
             self.lista.append(columnas)
         del self.lista[0]
         return self.lista
