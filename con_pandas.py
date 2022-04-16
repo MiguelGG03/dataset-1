@@ -31,6 +31,8 @@ print()
 print(df.info())
 print()
 
+
+
 print("==================================================")
 print("         Primeras 10 lineas del fichero CSV")
 print("==================================================")
@@ -38,19 +40,23 @@ print()
 print(hf)
 print()
 
+
+
 print("==================================================")
 print("             Indexacion y seleccion")
 print("==================================================")
 print()
 print(df.index)
 print()
-dd=int(input("Fila inicial (0/20000): "))
-ad=int(input("Fila final(ad>dd/20000): "))
+#dd=int(input("Fila inicial (0/20000): "))
+#ad=int(input("Fila final(ad>dd/20000): "))
 lista=[]
-for i in range(dd,ad+1):
+for i in range(10,21):
     lista.append(i)
 print(df.iloc[lista])
 print()
+
+
 
 print("==================================================")
 print("         Resumen de funciones y mapas")
@@ -72,6 +78,7 @@ print("DESCRIBE\n==================================================")
 print(df.describe())
 
 
+
 print("==================================================")
 print("          Agrupación y clasificación")
 print("==================================================")
@@ -85,6 +92,18 @@ print(df_tx.describe())
 
 
 print("==================================================")
-print("          Agrupación y clasificación")
+print("         Tipos de datos y valores perdidos")
+print("==================================================")
+print()
+s_year=df["year"]
+print(s_year.count())
+print(df.count())
+print("Se puede observar que hay coches que tienen el año a nulo, porque\n"+
+       +"el numero de ID's no es el mismo que el de años registrados")
+
+
+
+print("==================================================")
+print("               Renombrar y combinar")
 print("==================================================")
 print()
