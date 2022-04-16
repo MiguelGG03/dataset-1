@@ -48,6 +48,5 @@ ad=int(input("Fila final(ad>dd/20000): "))
 lista=[]
 for i in range(dd,ad+1):
     lista.append(i)
-print(lista)
 print(df.iloc[lista])
 print()
