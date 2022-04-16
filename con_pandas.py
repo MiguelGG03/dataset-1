@@ -70,3 +70,21 @@ print("STANDARD DEVIATION\n==================================================")
 print(df.std(numeric_only=True))
 print("DESCRIBE\n==================================================")
 print(df.describe())
+
+
+print("==================================================")
+print("          Agrupación y clasificación")
+print("==================================================")
+print()
+print("COCHES DE TEXAS")
+print()
+df_tx=df.groupby(["state"]).get_group("tx")
+print(df_tx)
+print(df_tx.describe())
+
+
+
+print("==================================================")
+print("          Agrupación y clasificación")
+print("==================================================")
+print()
