@@ -9,7 +9,7 @@ class data:
         for i in self.f:
             i = i.rstrip('\n')
             columnas = i.split(',')
-            if len(columnas) < 25:
+            if len(columnas) < 26:
                 for i in range(26-len(columnas)):
                     columnas.append('')
             self.lista.append(columnas)
