@@ -99,7 +99,7 @@ s_year=df["year"]
 print(s_year.count())
 print(df.count())
 print("Se puede observar que hay coches que tienen el año a nulo, porque\n"+
-       +"el numero de ID's no es el mismo que el de años registrados")
+       "el numero de ID's no es el mismo que el de años registrados")
 
 
 
@@ -107,3 +107,11 @@ print("==================================================")
 print("               Renombrar y combinar")
 print("==================================================")
 print()
+ef=df.rename(columns={"county": "condado", "state": "estado","year":"año"})
+print(ef.tail(10))
+s_c=ef["condado"]
+s_e=ef["estado"]
+s_a=ef["año"]
+print(s_c.head(1))
+print(s_e.head(1))
+print(s_a.head(1))
