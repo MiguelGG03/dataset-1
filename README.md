@@ -52,7 +52,7 @@ Para intentar que estos problemas nos afecten lo menos posible, podemos llevar a
 * Cantidad excesiva de Dimensiones (features), con muchas variantes distintas, sin suficientes muestras. A veces conviene eliminar o reducir la cantidad de características que utilizaremos para entrenar el modelo. Una herramienta útil para hacerlo es PCA.
 
 
-En nuestro caso personal, nuestro mayor problema ha ido de la mano con la cantidad excesiva de dimensiones, ya que tenemos asociado un Dataset de muy grandes dimensiones ( unas 400.000 líneas), lo que nos ha impedido trabajar correctamente. Una buena solución, ha sido eliminar gran parte del contenido, trabajando con el mismo archivo pero muy minimizado. Con 20.000 líneas aún seguía siendo muy difícil trabajar con este, y no ha sido hasta que hemos bajado a las 1000 líneas donde hemos podido trabajar cómodamente y sin fallos ni saturación.
+En nuestro caso personal, nuestro mayor problema ha ido de la mano con la cantidad excesiva de dimensiones, ya que tenemos asociado un Dataset de muy grandes dimensiones ( unas 400.000 líneas), lo que nos ha impedido trabajar correctamente. Una buena solución, ha sido eliminar gran parte del contenido, trabajando con el mismo archivo pero muy minimizado. Con 20.000 líneas aún seguía siendo muy difícil trabajar con este, y no ha sido hasta que hemos bajado a las 1000 líneas (todo realizado sin pandas) donde hemos podido trabajar cómodamente y sin fallos ni saturación.
 
 
 
