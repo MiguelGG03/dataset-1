@@ -2,9 +2,6 @@ from numpy import append
 import pandas as pd
 
 
-df = pd.read_csv('vehicles(20k).csv')
-hf= df.head(10)
-
 """
 -Crear, leer y escribir(No puede trabajar con datos si no puede leerlos)
 -Indexación, selección y asignación(Los científicos de datos profesionales
@@ -19,9 +16,13 @@ hacen esto docenas de veces al día)
 
 """
 
-
-
 #Lectura y escritura
+
+
+df = pd.read_csv('vehicles(20k).csv')
+hf= df.head(10)
+
+
 
 print("==================================================")
 print("           Informacion. Sobre el CSV")
