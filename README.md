@@ -57,8 +57,11 @@ En nuestro caso personal, nuestro mayor problema ha ido de la mano con la cantid
 
 ### Codigo
 Nuestro codigo realizado para esta fase del trabajo final se divide en dos partes:
+
 * Sin pandas
+
 Consiste en la exploracion basica de datos, modelo de aprendizaje automatico, modelo de validacion, underfitting y overfitting, y bosques aleatorios.
+
 ```
 class data:
     def __init__(self):
