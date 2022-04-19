@@ -35,10 +35,10 @@ print("==================================================")
 print()
 print(df.index)
 print()
-#dd=int(input("Fila inicial (0/20000): "))
-#ad=int(input("Fila final(ad>dd/20000): "))
+dd=int(input("Fila inicial (0/20000): "))
+ad=int(input("Fila final(ad>dd/20000): "))
 lista=[]
-for i in range(10,21):
+for i in range(dd,ad):
     lista.append(i)
 print(df.iloc[lista])
 print()
